@@ -13,13 +13,13 @@ def Minesweeper(strInput):
     
     numT = int(strList[0])
     
-    for i in range(1,numT+1):
-        R, C, M = map(int, strList[i].split(' '))
-        print(R,C,M)
-        if(M > (R*C)-4):
-            strOutput[i] = "Impossible"
-            continue
-        MineSearch(R,C,M)
+    # for i in range(1,numT+1):
+    #     R, C, M = map(int, strList[i].split(' '))
+    #     print(R,C,M)
+    #     if(M > (R*C)-4):
+    #         strOutput[i] = "Impossible"
+    #         continue
+    #     MineSearch(R,C,M)
         
         
 
